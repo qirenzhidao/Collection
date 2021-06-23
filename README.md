@@ -13,7 +13,7 @@
 #  圈X
 
 ##      订 阅 地 址：
-https://raw.githubusercontent.com/xbt370/Collection/master/Quantumult-X/xbt370.conf
+https://raw.githubusercontent.com/xbt370/Collection/master/Quantumult-X/Xbt370.conf
 
 #  Loon
 
