@@ -18,4 +18,4 @@ https://raw.githubusercontent.com/xbt370/Collection/master/Quantumult-X/xbt370.c
 #  Loon
 
 ##      订 阅 地 址：
-https://raw.githubusercontent.com/xbt370/Collection/master/Loon/XBT370.conf
+https://raw.githubusercontent.com/xbt370/Collection/master/Loon/xbt370.conf
