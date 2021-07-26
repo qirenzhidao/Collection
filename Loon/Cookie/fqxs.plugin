@@ -1,0 +1,4 @@
+http-request luckycat/novel/v1/task/sign_in/* script-path=https://raw.githubusercontent.com/xbt370/Auto-Script/ZhiYi-N/Scripts/fqxs.js, requires-body=true, timeout=10, tag=🍅番茄小说
+
+#番茄小说
+hostname = *.snssdk.com
