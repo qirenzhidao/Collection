@@ -68,7 +68,8 @@ dl.l.google.com = server:119.29.29.29
 ^https?:\/\/api\.zhihu\.com/moments/hybrid\? - reject-dict
 # 知乎下发的配置，如皮肤等，目前已知会导致Tab页管理功能失效
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-200
-
+# 京东比价Fix
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start url reject-200
 
 
 [Rule]
