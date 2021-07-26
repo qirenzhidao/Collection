@@ -2,6 +2,8 @@
 # 使用方法:打开APP，底部的配置 -> 脚本 -> 订阅脚本- > 点击右上角+号 -> 添加url链接
 
 [Sctipr]
+# 燃旅视频
+cron "0 * * * *" script-path=https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/rl.js,tag=燃旅视频
 # 特仑苏
 cron "7 17,27 12 * * *" script-path= https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/tls.js , tag=特仑苏
 # 电视家
