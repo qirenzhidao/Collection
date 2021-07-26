@@ -1,0 +1,26 @@
+# xbt370脚本合集
+# 使用方法:打开APP，底部的配置 -> 脚本 -> 订阅脚本- > 点击右上角+号 -> 添加url链接
+
+[Sctipr]
+# 爱奇艺签到
+cron "6 9 * * *" script-path= https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺
+# 哔哩哔哩
+cron "1 9 * * *" script-path= https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,tag=哔哩哔哩
+# 吾爱破解
+cron "2 9 * * *" script-path= https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,tag=吾爱破解
+# 机场签到
+cron "3 9 * * *" script-path= https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js,tag=机场签到
+# 京东签到
+cron "0 9 * * *" script-path= https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js , tag=京东多合一签到
+# 中青
+cron "30 12,14 * * *" script-path= https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, timeout=1800, enabled=true , tag=中青浏览赚
+# 中青
+cron "*/2 5-23 * * *" script-path= https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, timeout=180, enabled=true , tag=中青签到
+# 中青
+cron "*/30 5-23/2 * * *" script-path= https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, timeout=3600, enabled=true , tag=中青阅读
+# 哔哩哔哩番剧监控
+cron "0 0 0,1 * * *" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, tag=哔哩哔哩番剧监控
+# 哔哩哔哩大会员特权领取
+cron "0 0 0,1 * * *" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/privilegeReceive.js, tag=哔哩哔哩大会员特权领取
+# 京东资产变动通知
+cron "2 9 * * *" script-path=https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_bean_change.js, tag=京东资产变动通知
