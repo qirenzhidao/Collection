@@ -27,20 +27,6 @@ http-request https:\/\/api.bilibili.com\/x\/vip\/privilege\/receive script-path=
 # 哔哩哔哩番剧监控cookie
 http-request https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, timeout=10, tag=哔哩哔哩番剧监控cookie
 
-# 中国移动
-http-request ^http:\/\/wx.10086.cn\/website\/taskCenter\/index\? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.cookie.js, requires-body=true, tag=中国移动
-http-request ^http:\/\/wx.10086.cn\/website\/taskCenter\/sign\? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.cookie.js, requires-body=true, tag=中国移动
-http-request ^https:\/\/clientaccess.10086.cn\/biz-orange\/LN\/uamrandcodelogin\/autoLogin script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.fee.cookie.js, requires-body=true, tag=中国移动-查话费
-http-request ^https:\/\/clientaccess.10086.cn\/biz-orange\/BN\/realFeeQuery\/getRealFee script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.fee.cookie.js, requires-body=true, tag=中国移动-查话费
-
-# 中国联通
-http-request ^https?:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通
-http-request ^https?:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通
-http-request ^https?:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, tag=中国联通
-
-# 中国电信
-http-request ^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, requires-body=true, tag=中国电信
-
 # 京喜财富岛  
 http-request ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js, requires-body=false, timeout=10, tag=京喜token
 http-request ^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js, requires-body=false, timeout=10, tag=京喜token
@@ -53,7 +39,7 @@ http-response ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?c
 http-request ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= script-path=https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_joy_run.js, timeout=3600, tag=宠汪汪助力获取Token
 
 # 宠汪汪强制为别人助力
-http-request ^https:\/\/draw\.jdfcloud\.com\/\/common\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/pet\/helpFriend\?friendPin script-path=https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_joy_help.js, requires-body=true, timeout=3600, tag=宠汪汪强制为别人助力
+http-request ^https:\/\/draw\.jdfcloud\.com\/\/common\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/pet\/helpFriend\?friendPin script-path=https://raw.githubusercontent.com/xbt370/Collection/master/JD/jd_joy_help.js, requires-body=true, timeout=3600, tag=宠汪汪强制为别人助力
 
 # 小米运动获取Token
 http-response ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/backUp/xmSports.js, requires-body=true, timeout=3600, tag=小米运动获取Token
