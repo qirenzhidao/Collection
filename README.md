@@ -22,4 +22,4 @@ curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Arm0506/Collect
 
 # 感谢下面大佬制作
 
-* [FlechazoPh].https://github.com/FlechazoPh/QLDependency
+* [FlechazoPh].(https://github.com/FlechazoPh/QLDependency)
