@@ -51,7 +51,7 @@ curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Arm0506/Collect
 
 ```bash
 
-Docker restart qinglong bash
+Docker restart qinglong
 
 ```
 
