@@ -11,7 +11,11 @@
 感谢各位大佬的付出……
 
 # 一键安装青龙依赖命令:
+
 先进入容器
+
 docker exec -it qinglong bash
+
 在执行下面命令
+
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Arm0506/Collection/master/qlyilai.sh | sh
