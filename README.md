@@ -21,4 +21,5 @@ docker exec -it qinglong bash
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Arm0506/Collection/master/qlyilai.sh |
 
 # 感谢下面大佬制作
-https://github.com/FlechazoPh/QLDependency
+
+* [FlechazoPh].https://github.com/FlechazoPh/QLDependency
