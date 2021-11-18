@@ -24,7 +24,7 @@ docker exec -it qinglong bash
 
 ```bash
 
-curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Arm0506/Collection/master/qlyilai.sh |
+curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Arm0506/Collection/master/qlyilai.sh | sh
 
 ```
 
