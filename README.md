@@ -10,6 +10,25 @@
  
 感谢各位大佬的付出……
 
+## 圈X配置链接：
+> 优先
+```bash
+
+https://raw.githubusercontent.com/Arm0506/Collection/master/Quantumult-X/Xbt370.conf
+
+```
+
+> 不能科学上网的用下面这个
+
+```bash
+
+https://ghproxy.com/https://raw.githubusercontent.com/Arm0506/Collection/master/Quantumult-X/Xbt370.conf
+
+```
+
+
+
+
 # 一键安装青龙依赖命令:
 > 我只是简单加了几个依赖
 
