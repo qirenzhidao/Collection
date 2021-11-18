@@ -14,11 +14,21 @@
 
 先进入容器
 
+```bash
+
 docker exec -it qinglong bash
+
+```
 
 在执行下面命令
 
+```bash
+
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Arm0506/Collection/master/qlyilai.sh |
+
+```
+
+
 
 # 感谢下面大佬制作
 
