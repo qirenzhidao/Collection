@@ -47,7 +47,13 @@ docker exec -it qinglong bash
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Arm0506/Collection/master/qlyilai.sh | sh
 
 ```
+> 3、最后输出，就完成了，重启下青龙 Docker ：
 
+```bash
+
+Docker restart qinglong
+
+```
 
 
 # 感谢下面大佬制作
