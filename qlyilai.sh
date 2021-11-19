@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-
+ 
 # 青龙一键安装脚本
 # GitHub仓库： https://github.com/FlechazoPh/QLDependency
 TIME() {
