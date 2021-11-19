@@ -374,3 +374,4 @@ echo -e "当前系统信息: ${green}$opsy $virtual $arch $kern${plain}
 }
 copyright
 menu
+ 
