@@ -35,16 +35,6 @@
       }
     },
     {
-      "name": "机场签到",
-      "type": "cron",
-      "time": "1 9 * * *",
-      "running": true,
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js"
-      }
-    },
-    {
       "name": "电视家ziye版",
       "type": "cron",
       "time": "0 0 6-23 * * *",
