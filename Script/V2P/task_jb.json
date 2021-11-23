@@ -185,6 +185,26 @@
       }
     },
     {
+      "name": "悦看点",
+      "type": "cron",
+      "time": "0 6-23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/Arm0506/Collection/master/Script/ykd.js"
+      }
+    },
+    {
+      "name": " 多走路",
+      "type": "cron",
+      "time": "5 6-22/2 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js"
+      }
+    },
+    {
       "name": "都爱玩",
       "type": "cron",
       "time": "0 0,1,8,15,20 * * * ",
