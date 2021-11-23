@@ -113,7 +113,7 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js"
       }
-    }
+    },
     {
       "name": "返利够",
       "type": "cron",
@@ -123,7 +123,7 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js"
       }
-    }
+    },
     {
       "name": "返利好省",
       "type": "cron",
@@ -133,7 +133,7 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/flhs.js"
       }
-    }
+    },
     {
       "name": "九章头条",
       "type": "cron",
@@ -143,7 +143,7 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/xl2101200/-/main/jztt.js"
       }
-    }
+    },
     {
       "name": "趣看行情",
       "type": "cron",
@@ -153,7 +153,7 @@
         "type": "runjs",
         "target": "https://gitee.com/tom210120/tom/raw/master/QKHQ/qkhq.js"
       }
-    }
+    },
     {
       "name": "得间小说",
       "type": "cron",
@@ -163,7 +163,7 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/djxs.js"
       }
-    }
+    },
     {
       "name": "睡觉宝",
       "type": "cron",
@@ -173,7 +173,7 @@
         "type": "runjs",
         "target": "https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js"
       }
-    }
+    },
     {
       "name": "清理v2p日志",
       "type": "cron",
@@ -183,7 +183,7 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/deletelog.js"
       }
-    }
+    },
     {
       "name": "都爱玩",
       "type": "cron",
