@@ -1,7 +1,7 @@
 /*
 # TG电报交流群: https://t.me/china20211029
 # 本地低调用吧，不上传github了
-# 抓用户CK，进入APP应该就能抓到
+# 抓用户CK，进入APP应该就能抓到 
 # QX重写: http://.+/api/v2/device/info url script-request-body dsjtx.js
 # 自己决定提现金额，删除不想要的提现金额，留下决定要提现的金额，如我想提现50元和30元 那么数组就是这样：[50,30]
 # 这个我没加boxjs, 好多大佬都写了，避免冲突。
